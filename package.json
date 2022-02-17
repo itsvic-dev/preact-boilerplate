@@ -1,0 +1,47 @@
+{
+  "name": "preact-boilerplace",
+  "version": "1.0.0",
+  "description": "omame's Preact project boilerplate",
+  "author": "omame",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/plugin-transform-react-jsx": "^7.17.3",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/node": "^17.0.18",
+    "@types/react": "^17.0.39",
+    "@types/styled-components": "^5.1.22",
+    "@types/tailwindcss": "^3.0.8",
+    "@types/webpack": "^5.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-macros": "^3.1.0",
+    "css-loader": "^6.6.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^2.5.1",
+    "style-loader": "^3.3.1",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@fontsource/inter": "^4.5.4",
+    "preact": "^10.6.6",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat",
+    "styled-components": "^5.3.3",
+    "tailwindcss": "^3.0.23",
+    "twin.macro": "^2.8.2"
+  }
+}
